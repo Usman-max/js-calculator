@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="normal-ui.css" id="pageStyle">
+    </head>
+    <body>
+        <header>
+            <h1>Calculator</h1>
+        </header>
+        <input type="button" value="Default Theme" onclick="changeUi('normal-ui.css')" class="uis" id="NormUi">
+        <input type="button" value="Blue Neon Theme" onclick="changeUi('blue-neon-ui.css')" class="uis" id="BlueNeonUi">
+        <input type="button" value="Purple Neon Theme" onclick="changeUi('purple-neon-ui.css')" class="uis" id="PurpNeonUi">
+        
+        <br><br>
+
+        <div id="numbers">
+            <input type="number" id="num1" placeholder="Enter first number" class="nums"><br><br>
+        
+            <input type="number" id="num2" placeholder="Enter second number" class="nums"><br><br>    
+        </div>
+        
+        <div id="calculations">
+            <input type="button" value="+" onclick="add()" class="ops" id="add">
+            
+            <input type="button" value="-" onclick="subtract()" class="ops" id="subtract">
+            <br>
+            <input type="button" value="*" onclick="multiply()" class="ops" id="multiply">
+                    
+            <input type="button" value="/" onclick="divide()" class="ops" id="divide"> 
+        </div>
+
+        <div id="ans">
+            <h1 id="result">Result of question: 0 + 0 = 0</h1>
+        </div>
+        
+        <input type="button" value="Clear All" id="clear" onclick="clearAll()"><br>
+        
+        <marquee behavior="" direction="">Made by Usman</marquee>
+        <script src="script.js"></script>
+    </body>
+</html>

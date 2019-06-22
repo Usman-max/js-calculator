@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #292D3E;
+}
+
+.uis {
+    font-family: Asap, sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px auto;
+    padding: 10px;
+    border: 4px solid #666666;
+    background-color: #323232;
+    transition: all 0.3s ease;
+}
+
+.uis:hover {
+    color: #C792EA;
+    cursor: pointer;
+    font-size: 33px;
+    background: #0F111A;
+}
+
+#BlueNeonUi {
+    color: #CCCCCC;
+    width: auto;
+    height: 60px;
+}
+
+#BlueNeonUi:hover {
+    color: aqua;
+    width: auto;
+    height: 75px;
+}
+
+#BlueNeonUi:active {
+    color: #0F111A;
+    background: aqua; 
+}
+
+#PurpNeonUi {
+    color: #CCCCCC;
+    width: auto;
+    height: 60px;
+}
+
+#PurpNeonUi:hover {
+    color: #C792EA;
+    width: auto;
+    height: 75px;
+}
+
+#PurpNeonUi:active {
+    color: #0F111A;
+    background: #C792EA; 
+}
+
+#NormUi {
+    color: #CCCCCC;
+    width: auto;
+    height: 60px;
+}
+
+#NormUi:hover {
+    width: auto;
+    height: 75px;
+}
+
+#NormUi:active {
+    color: #0F111A;
+    background: #CCCCCC; 
+}
+
+#calculations {
+    text-align: center;
+    width: 15%;
+    border: 3px solid #666666;
+    border-radius: 30%;
+    background: #0F111A;
+}
+
+
+marquee {
+    color: #C792EA;
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: Asap, sans-serif;
+}
+
+.ops {
+    border-radius: 50%;
+    font-family: "Courier";
+    color: #CCCCCC;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 5px auto;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    border: 4px solid #666666;
+    background-color: #323232;
+    transition: all 0.3s ease;
+}
+
+.ops:hover {
+    width: 75px;
+    height: 75px;
+    font-size: 45px;
+    color: #C792EA; 
+    background: #0A0C12;
+    cursor: pointer;
+}
+
+.ops:active {
+    color: #0F111A;
+    background: #C792EA; 
+}
+
+#ans {
+    width: 43%;
+    border: 4px solid #666666;
+    background: #323232;
+    color: #CCCCCC;
+    font-weight: bold;
+    font-family: "Courier";
+    transition: all 0.3s ease;
+} 
+
+#ans:hover {
+    color: #C792EA;
+    background: #0A0C12;
+}
+
+.nums {
+    font-size: 30px;
+    border: 4px solid #666666;
+    font-weight: bolder;
+    color: #CCCCCC;
+    background-color: #323232;
+    height: 50px;   
+    transition: all 0.3s ease;
+}
+
+.nums:hover {
+    background: #0A0C12;
+    color: #C792EA; 
+}
+
+header {
+    padding: 20px;
+    background-color: white;
+}
+
+header > h1 {
+    font-family: Asap,sans-serif;
+    color: #25272E;
+    text-align: center;
+}
+
+#clear {
+    font-family: Asap, sans-serif;
+    color: #CCCCCC;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px auto;
+    padding: 10px;
+    width: 150px;
+    height: 60px;
+    border: 4px solid #666666;
+    background-color: #323232;
+    transition: all 0.3s ease;
+}
+
+#clear:hover {
+    width: 165px;
+    height: 75px;
+    font-size: 33px;
+    background: #0F111A;
+    color: #C792EA; 
+    cursor: pointer;
+}
+
+#clear:active {
+    color: #0F111A;
+    background: #C792EA; 
+}
